@@ -1,0 +1,29 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"removeComments": false,
+		"preserveConstEnums": true,
+		"sourceMap": false,
+		"outDir": "../out",
+		"target": "es2017",
+		"lib": [
+			"dom",
+			"es5",
+			"es2015.iterable"
+		],
+		"types": [
+			"keytar",
+			"mocha",
+			"semver",
+			"sinon",
+			"winreg"
+		]
+	},
+	"include": [
+		"./typings",
+		"./vs"
+	],
+	"exclude": [
+		"./typings/es6-promise.d.ts"
+	]
+}
