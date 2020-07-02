@@ -1,0 +1,17 @@
+{
+	"extends": "./tsconfig.base.json",
+	"compilerOptions": {
+		"removeComments": false,
+		"preserveConstEnums": true,
+		"sourceMap": false,
+		"declaration": true,
+		"outDir": "../out"
+	},
+	"include": [
+		"./typings",
+		"./vs"
+	],
+	"exclude": [
+		"./typings/require-monaco.d.ts"
+	]
+}
