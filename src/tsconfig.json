@@ -1,0 +1,38 @@
+{
+	"compilerOptions": {
+		"module": "amd",
+		"moduleResolution": "classic",
+		"noImplicitAny": false,
+		"removeComments": false,
+		"preserveConstEnums": true,
+		"target": "es6",
+		"lib": [
+			"dom",
+			"es5",
+			"es2015.promise",
+			"es2015.iterable",
+			"es2015.collection"
+		],
+		"sourceMap": false,
+		"experimentalDecorators": true,
+		"declaration": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		"baseUrl": ".",
+		"outDir": "../out/vs",
+		"typeRoots": [
+			"typings"
+		]
+	},
+	"exclude": [
+		"typings/es6-promise.d.ts",
+		"typings/lib.ie11_safe_es6.d.ts",
+		"src/vs/base/common/winjs.polyfill.promise.ts",
+		"src/vs/base/test/common/winjs.polyfill.promise.test.ts",
+		"../out",
+		"../out-build",
+		"../out-vscode"
+	]
+}
