@@ -1,0 +1,15 @@
+{
+	"files": [],
+	"include": [],
+	"references": [
+		{
+			"path": "./tsconfig.vscode.json"
+		},
+		{
+			"path": "./tsconfig.monaco.json"
+		},
+		{
+			"path": "./tsconfig.strictNullChecks.json"
+		},
+	]
+}
